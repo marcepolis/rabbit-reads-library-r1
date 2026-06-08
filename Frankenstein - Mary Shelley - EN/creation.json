@@ -1,0 +1,17 @@
+{
+  "name": "Frankenstein; Or, The Modern Prometheus",
+  "description": "Read this book on Rabbit r1 with wheel navigation, notes, bookmarks, and settings.",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "hardware": {
+    "wheel": true,
+    "ptt": true,
+    "touch": true
+  },
+  "book": {
+    "title": "Frankenstein; Or, The Modern Prometheus",
+    "author": "Mary Wollstonecraft Shelley",
+    "format": "normalized",
+    "id": "frankenstein-or-the-modern-prometheus-81971ebc7e49af5a"
+  }
+}

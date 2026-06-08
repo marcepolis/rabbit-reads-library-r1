@@ -1,0 +1,17 @@
+{
+  "name": "Don Quijote",
+  "description": "Read Don Quijote on Rabbit r1.",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "hardware": {
+    "wheel": true,
+    "ptt": true,
+    "touch": true
+  },
+  "book": {
+    "title": "Don Quijote",
+    "author": "Miguel de Cervantes Saavedra",
+    "format": "normalized",
+    "id": "don-quijote-87bc971594dcfb51"
+  }
+}

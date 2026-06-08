@@ -1,0 +1,17 @@
+{
+  "name": "The call of Cthulhu",
+  "description": "Read this book on Rabbit r1 with wheel navigation, notes, bookmarks, and settings.",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "hardware": {
+    "wheel": true,
+    "ptt": true,
+    "touch": true
+  },
+  "book": {
+    "title": "The call of Cthulhu",
+    "author": "H. P. Lovecraft",
+    "format": "normalized",
+    "id": "the-call-of-cthulhu-66153412ca8d2d10"
+  }
+}

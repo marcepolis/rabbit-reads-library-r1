@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=240, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>The call of Cthulhu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app" class="theme-dark">
+    <section id="menu" class="screen active">
+      <div class="menuInner">
+        <h1 id="bookTitle">Reader</h1>
+        <p id="bookAuthor">EPUB Creation</p>
+        <button id="continueBtn" class="primary">Continue Reading</button>
+        <button data-panel="notes">Highlights and Notes</button>
+        <button data-panel="index">Index</button>
+        <button data-panel="settings">Settings</button>
+        <button id="startReading">Start Reading</button>
+      </div>
+    </section>
+    <section id="reader" class="screen">
+      <header id="readerBar">
+        <span id="chapterLabel">Loading…</span>
+        <span id="pageLabel">0/0</span>
+        <button id="menuBtn">☰</button>
+      </header>
+      <div id="viewer" tabindex="0"></div>
+    </section>
+    <section id="panel" class="screen">
+      <header class="panelHeader"><button id="backToMenu">‹</button><h2 id="panelTitle">Panel</h2></header>
+      <div id="panelContent"></div>
+    </section>
+    <div id="noteModal" class="modal hidden"><div class="modalCard"><h3>Add note</h3><p id="selectedPreview"></p><textarea id="noteText" placeholder="Write note…"></textarea><div class="row"><button id="cancelNote">Cancel</button><button id="saveNote" class="primary">Save</button></div></div></div>
+  </main>
+  <script src="book.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
